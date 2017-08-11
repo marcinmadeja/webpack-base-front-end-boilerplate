@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js  --open",
+    "start": "nodemon --watch webpack.config.prod.js --exec \"webpack-dev-server --config webpack.config.dev.js  --open\"",
     "build": "webpack --config webpack.config.prod.js",
     "watch": "webpack --watch",
     "server": "node server.js",

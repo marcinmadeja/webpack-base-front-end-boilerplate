@@ -46,7 +46,7 @@ const productionConfig = merge([
       {
         loader: 'url-loader',
         options: {
-          limit: 15000,
+          limit: 17000,
           name: '[name].[ext]',
         },        
       },
