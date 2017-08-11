@@ -1,14 +1,15 @@
 const path = require('path');
-const parts = require('./webpack.parts');
 const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 
-
+const distName = 'dist';
+const srcName = 'src';
 
 const PATHS = {
-  dist: path.join(__dirname, 'dist'),
-  src: path.join(__dirname, 'src'),
+  distName: distName,
+  srcName: srcName,
+  dist: path.join(__dirname, distName),
+  src: path.join(__dirname, srcName),
 };
 
 const commonConfig = merge([
@@ -20,17 +21,7 @@ const commonConfig = merge([
 
     devtool: 'inline-source-map',
 
-    module: {
-      rules: [
-        {
-          test: /\.scss$/,
-          use: ['style-loader', 'css-loader', 'sass-loader'],
-        },
-      ],
-    },  
-
     plugins: [
-      new CleanWebpackPlugin(['dist']),
       new HtmlWebpackPlugin({
         title: 'Output Management',
         template: `${PATHS.src}/index.html`,
@@ -38,7 +29,7 @@ const commonConfig = merge([
     ],
 
     output: {
-      filename: '[name].bundle.js',
+      filename: 'scripts/[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
       publicPath: '/',
     },      

@@ -41,7 +41,7 @@ exports.loadCSS = ({ include, exclude } = {}) => ({
   module: {
     rules: [
       {
-        test: /\.(sass|scss)$/,
+        test: /\.(css|sass|scss)$/,
         include,
         exclude,
 
@@ -50,6 +50,30 @@ exports.loadCSS = ({ include, exclude } = {}) => ({
     ],
   },
 });
+
+exports.extractCSS = ({ include, exclude }) => {
+  const plugin = new ExtractTextPlugin({
+    filename: '[name].[chunkhash].css',
+  });
+
+  return {
+    module: {
+      rules: [
+        {
+          test: /\.(css|sass|scss)$/,
+          include,
+          exclude,
+
+          use: plugin.extract({
+            fallback: 'style-loader',
+            use: ['style-loader', 'css-loader', 'sass-loader'],
+          }),
+        },
+      ],
+    },
+    plugins: [ plugin ],
+  };
+};
 
 exports.autoprefix = () => ({
   loader: 'postcss-loader',
