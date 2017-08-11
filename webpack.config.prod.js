@@ -10,6 +10,10 @@ const PATHS = Main.PATHS();
 const commonConfig = merge([Main.commonConfig()]); 
 const productionConfig = merge([
   {
+    entry: {
+      app: ['babel-polyfill', PATHS.src + '/index.js'],
+      sass: PATHS.src + '/main.scss',
+    },    
     performance: {
       hints: 'warning', // 'error' or false are valid too
       maxEntrypointSize: 100000, // in bytes
@@ -27,6 +31,7 @@ const productionConfig = merge([
   },  
   parts.clean(PATHS.distName),
   parts.devServer(),
+  parts.loadJavaScript({ include: PATHS.app, exclude: /node_modules/ }),
   parts.generateSourceMaps({ type: 'cheap-module-eval-source-map' }),  
   parts.extractCSS(),
   parts.lintCSS({ include: PATHS.src }),

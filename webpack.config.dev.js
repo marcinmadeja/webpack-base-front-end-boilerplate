@@ -6,6 +6,12 @@ const PATHS = Main.PATHS();
 
 const commonConfig = merge([Main.commonConfig()]); 
 const productionConfig = merge([
+  {
+    entry: {
+      app: [PATHS.src + '/index.js'],
+      sass: PATHS.src + '/main.scss',
+    },
+  },
   parts.devServer(),
   parts.loadCSS(),
   parts.lintCSS({ include: PATHS.src }),
@@ -20,11 +26,12 @@ const productionConfig = merge([
     ],
   }),
 
+
   parts.loadFonts({
     options: {
       name: './fonts/[name].[hash:8].[ext]',
     },
-  }),
+  }), 
 ]);
 
 module.exports = () => {

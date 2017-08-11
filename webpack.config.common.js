@@ -14,11 +14,6 @@ const PATHS = {
 
 const commonConfig = merge([
   {
-    entry: {
-      app: PATHS.src + '/index.js',
-      sass: PATHS.src + '/main.scss',
-    },
-
     devtool: 'inline-source-map',
 
     plugins: [
