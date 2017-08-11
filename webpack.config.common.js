@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -21,6 +22,11 @@ const commonConfig = merge([
         title: 'Output Management',
         template: `${PATHS.src}/index.html`,
       }),
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        Tether: 'tether',
+      }),      
     ],
 
     output: {

@@ -11,8 +11,8 @@ const commonConfig = merge([Main.commonConfig()]);
 const productionConfig = merge([
   {
     entry: {
-      app: ['babel-polyfill', PATHS.src + '/index.js'],
-      sass: PATHS.src + '/main.scss',
+      app: ['babel-polyfill', PATHS.src + '/scripts/index.js'],
+      sass: PATHS.src + '/sass/main.scss',
     },    
     performance: {
       hints: 'warning', // 'error' or false are valid too
@@ -37,7 +37,7 @@ const productionConfig = merge([
   parts.lintCSS({ include: PATHS.src }),
   parts.loadFonts({
     options: {
-      name: 'fonts/[name].[hash:8].[ext]',
+      name: './fonts/[name].[hash:8].[ext]',
     },
   }),
   parts.loadImages( {
@@ -45,16 +45,16 @@ const productionConfig = merge([
       { 
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]',
+          name: './images/[name].[ext]',
         },
       },
-      {
-        loader: 'url-loader',
-        options: {
-          limit: 17000,
-          name: '[name].[ext]',
-        },        
-      },
+      // {
+      //   loader: 'url-loader',
+      //   options: {
+      //     limit: 17000,
+      //     name: './images/[name].[ext]',
+      //   },        
+      // },
     ],
   }),
   parts.extractBundles([

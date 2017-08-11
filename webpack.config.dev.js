@@ -8,8 +8,8 @@ const commonConfig = merge([Main.commonConfig()]);
 const productionConfig = merge([
   {
     entry: {
-      app: [PATHS.src + '/index.js'],
-      sass: PATHS.src + '/main.scss',
+      app: [PATHS.src + '/scripts/index.js'],
+      sass: PATHS.src + '/sass/main.scss',
     },
   },
   parts.devServer(),
@@ -20,12 +20,11 @@ const productionConfig = merge([
       { 
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]',
+          name: './images/[name].[ext]',
         },
       }, 
     ],
   }),
-
 
   parts.loadFonts({
     options: {
