@@ -35,11 +35,22 @@ const productionConfig = merge([
       name: 'fonts/[name].[hash:8].[ext]',
     },
   }),
-  parts.loadImages({
-    options: {
-      limit: 15000,
-      name: 'images/[name].[hash:8].[ext]',
-    },
+  parts.loadImages( {
+    use: [ 
+      { 
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        },
+      },
+      {
+        loader: 'url-loader',
+        options: {
+          limit: 15000,
+          name: '[name].[ext]',
+        },        
+      },
+    ],
   }),
   parts.extractBundles([
     {

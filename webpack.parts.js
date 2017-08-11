@@ -20,7 +20,6 @@ exports.devServer = () => ({
   ],
 });
 
-
 exports.lintJavaScript = ({ include, exclude, options }) => ({
   module: {
     rules: [
@@ -92,7 +91,7 @@ exports.extractCSS = ({ include, exclude} = {}) => {
     module: {
       rules: [
         {
-          test: /\.(sass|scss)$/,
+          test: /\.(css|sass|scss)$/,
           include,
           exclude,
 
@@ -152,18 +151,14 @@ exports.lintCSS = ({ include, exclude }) => ({
   },
 });
 
-exports.loadImages = ({ include, exclude, options } = {}) => ({
+exports.loadImages = ({ include, exclude, use } = {}) => ({
   module: {
     rules: [
       {
-        test: /\.(png|jpg|svg)$/,
+        test: /\.(jpe?g|png|gif|svg)$/,
         include,
         exclude,
-
-        use: {
-          loader: 'url-loader',
-          options,
-        },
+        use,
       },
     ],
   },

@@ -19,23 +19,23 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       },
-      "prepreHash": "8aada488a738c17d309f",
-      "preHash": "03e3bb8a5bd684b1dedf",
-      "hash": "35c8530187067b94b584",
+      "prepreHash": "b74b81a6497f726af342",
+      "preHash": "3f30c31695ff739ce9d3",
+      "hash": "b4b66e8158e8f12daa13",
       "moduleHashs": {
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/webpack/buildin/module.js": "400562b033773603f51b9a3eed1b6106",
-        "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/html-webpack-plugin/lib/loader.js!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/index.html": "9f2702e75632adcda60e3aec163289fc",
+        "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/html-webpack-plugin/lib/loader.js!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/index.html": "10ef6695e21819e9cb86ce9b6b43dd46",
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/webpack/buildin/global.js": "cc8efc912dc2d0229a14f3cc5ee2508d",
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/lodash/lodash.js": "140bc66a4917980f46545669adeb6c77"
       },
       "chunkHashs": {
-        "0": "186145f80eb47c83383b053a1453ddd3"
+        "1": "6c85c270e244df6b87df417ab94909b7"
       },
       "chunkModuleIds": {
-        "0": [
+        "1": [
           "3IRH",
           "7GO9",
           "DuR2",
@@ -57,7 +57,14 @@
       "src/index.js": "lVK7",
       "node_modules/style-loader/lib/urls.js": "mJPh",
       "node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!src/main.scss": "/XYF",
-      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--0-2!node_modules/postcss-loader/lib/index.js??ref--0-3!node_modules/sass-loader/lib/loader.js??ref--0-4!src/main.scss": "DL/1"
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--0-2!node_modules/postcss-loader/lib/index.js??ref--0-3!node_modules/sass-loader/lib/loader.js??ref--0-4!src/main.scss": "DL/1",
+      "node_modules/url-loader/index.js!node_modules/image-webpack-loader/index.js!src/icon.png": "DWka",
+      "src/component.js": "piMf",
+      "node_modules/url-loader/index.js!src/icon.png": "DWka",
+      "node_modules/url-loader/index.js??ref--3-0!node_modules/image-webpack-loader/index.js!src/icon.png": "DWka",
+      "node_modules/url-loader/index.js??ref--3-0!src/icon.png": "DWka",
+      "node_modules/file-loader/index.js??ref--3-0!node_modules/url-loader/index.js??ref--3-1!src/icon.png": "DWka",
+      "node_modules/file-loader/index.js??ref--3-0!node_modules/url-loader/index.js??ref--3-1!node_modules/image-webpack-loader/index.js!src/icon.png": "DWka"
     },
     "usedIds": {
       "3Di9": "3Di9",
@@ -70,14 +77,17 @@
       "MTIv": "MTIv",
       "lVK7": "lVK7",
       "mJPh": "mJPh",
-      "/XYF": "/XYF"
+      "/XYF": "/XYF",
+      "DWka": "DWka",
+      "piMf": "piMf"
     }
   },
   "chunks": {
     "byName": {
       "app": 0,
       "sass": 1,
-      "manifest": 2
+      "manifest": 2,
+      "vendor": 3
     },
     "byBlocks": {},
     "usedIds": {
@@ -86,33 +96,29 @@
       "2": 2
     }
   },
-  "prepreHash": "4eeae05a70810bcb7c3b",
-  "preHash": "e2e9e9965585f694fa24",
-  "hash": "642f22a9a4b03485f4d4",
+  "prepreHash": "21136d4f8bad72f39940",
+  "preHash": "f0045640a17fb41a8f76",
+  "hash": "adb69b96b64776e6e7e2",
   "moduleHashs": {
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/main.scss": "c9a627b91cf3d199a0c0c8bc1197e4ec",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/print.js": "ee946c3a91f47cd88c18aa0f2d56dee1",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/webpack/buildin/module.js": "400562b033773603f51b9a3eed1b6106",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/main.scss": "6d58eb458ce4aa0b07d36afc36f919d0",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-0!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/style-loader/index.js!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/css-loader/index.js??ref--0-2!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/postcss-loader/lib/index.js??ref--0-3!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/sass-loader/lib/loader.js??ref--0-4!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/main.scss": "358bff4e90b3b07fc571466486a99299",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/webpack/buildin/global.js": "cc8efc912dc2d0229a14f3cc5ee2508d",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/file-loader/index.js??ref--3-0!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/url-loader/index.js??ref--3-1!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/icon.png": "2d986a859b4668edb10cc395c09cfb9f",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/css-loader/lib/css-base.js": "fbf5a9a23289b73055e94ccdf810f54c",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/lodash/lodash.js": "9fc159fdec2aaf5f844b9c984d8a3ad5",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/style-loader/lib/addStyles.js": "96558703a24bf3f78a18bc2f509a1ec6",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/index.js": "7d5a4396527eff5a64022fbf84fb93d3",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/style-loader/lib/urls.js": "fdea2ceba7632491953d1e809c5a2317"
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/index.js": "179f516b48e56c60009049fd2e8ecbac",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/style-loader/lib/urls.js": "fdea2ceba7632491953d1e809c5a2317",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/component.js": "495e1684a7b940c0c2d91ff3463684d7"
   },
   "chunkHashs": {
-    "0": "cbf2ddb34cec4bb562e51a437a100219",
+    "0": "b063749892295bc7b4746a7d2725a021",
     "1": "120e41148341c8104fcf2a1491191e46",
     "2": "0572fe99544fe70b6bf61722e2de571d"
   },
   "chunkModuleIds": {
     "0": [
-      "3Di9",
-      "3IRH",
-      "DuR2",
-      "M4fF",
-      "lVK7"
+      "DWka",
+      "lVK7",
+      "piMf"
     ],
     "1": [
       "DL/1"
@@ -124,32 +130,39 @@
       "modules": {
         "byIdentifier": {
           "node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!src/main.scss": "CuZ9",
-          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/url-loader/index.js!node_modules/image-webpack-loader/index.js!src/icon.png": "DWka",
+          "node_modules/url-loader/index.js!src/icon.png": "DWka",
+          "node_modules/url-loader/index.js??ref--3-0!node_modules/image-webpack-loader/index.js!src/icon.png": "DWka",
+          "node_modules/url-loader/index.js??ref--3-0!src/icon.png": "DWka",
+          "node_modules/file-loader/index.js??ref--3-0!node_modules/url-loader/index.js??ref--3-1!src/icon.png": "DWka",
+          "node_modules/file-loader/index.js??ref--3-0!node_modules/url-loader/index.js??ref--3-1!node_modules/image-webpack-loader/index.js!src/icon.png": "DWka"
         },
         "usedIds": {
           "CuZ9": "CuZ9",
-          "FZ+f": "FZ+f"
+          "FZ+f": "FZ+f",
+          "DWka": "DWka"
         }
       },
       "chunks": {
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       },
-      "prepreHash": "3af1299444b52cf0ef97",
-      "preHash": "973fd76acb97d25c0839",
-      "hash": "c21cc04bdf45f8720257",
+      "prepreHash": "5692f2d47c5a74087855",
+      "preHash": "14b4ab66bb6323aa60d0",
+      "hash": "99a823ac8de02d2c9196",
       "moduleHashs": {
-        "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/main.scss": "91631f4a6f48a8ec1f48689d7904ce89",
+        "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/src/main.scss": "61d02202126cecc9983b545ddc2bbc19",
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-simple-boilerplate/node_modules/css-loader/lib/css-base.js": "fbf5a9a23289b73055e94ccdf810f54c"
       },
       "chunkHashs": {
-        "0": "4676ab9ab549926fe6ae28a3f3c2fd34"
+        "1": "9281fda4d96fff152fc2176d7fe479a7"
       },
       "chunkModuleIds": {
-        "0": [
+        "1": [
           "CuZ9",
           "FZ+f"
         ]

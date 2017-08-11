@@ -29,7 +29,7 @@ const commonConfig = merge([
     ],
 
     output: {
-      filename: 'scripts/[name].bundle.js',
+      filename: './scripts/[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
       publicPath: '/',
     },      

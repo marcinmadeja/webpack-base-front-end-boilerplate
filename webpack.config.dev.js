@@ -9,12 +9,22 @@ const productionConfig = merge([
   parts.devServer(),
   parts.loadCSS(),
   parts.lintCSS({ include: PATHS.src }),
+  parts.loadImages( {
+    use: [ 
+      { 
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        },
+      }, 
+    ],
+  }),
+
   parts.loadFonts({
     options: {
       name: './fonts/[name].[hash:8].[ext]',
     },
   }),
-  parts.loadImages(),
 ]);
 
 module.exports = () => {
