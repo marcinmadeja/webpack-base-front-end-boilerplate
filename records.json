@@ -22,17 +22,17 @@
           "0": 0
         }
       },
-      "prepreHash": "11ff69e2ea974552b9da",
-      "preHash": "8184c6a9808652fe2abf",
-      "hash": "0f6453a8c2c25fb74b38",
+      "prepreHash": "7de828a6f22ae9e12968",
+      "preHash": "faed9da8df7407094c08",
+      "hash": "088b89b8c75942ba84b2",
       "moduleHashs": {
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/webpack/buildin/module.js": "400562b033773603f51b9a3eed1b6106",
-        "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/html-webpack-plugin/lib/loader.js!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/index.html": "10bae0855d5769170da50c45f07c7377",
+        "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/html-webpack-plugin/lib/loader.js!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/index.html": "c9da734a4403f139b803d183e6cbae76",
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/webpack/buildin/global.js": "cc8efc912dc2d0229a14f3cc5ee2508d",
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/lodash/lodash.js": "140bc66a4917980f46545669adeb6c77"
       },
       "chunkHashs": {
-        "0": "cfc9ee327c98c4c54e98940ccd488231"
+        "0": "c99d0ed36ddf6665a315f3ea67119672"
       },
       "chunkModuleIds": {
         "0": [
@@ -399,7 +399,13 @@
       "node_modules/core-js/modules/es7.object.get-own-property-descriptors.js": "zmx7",
       "node_modules/core-js/modules/_to-absolute-index.js": "zo/l",
       "node_modules/core-js/modules/_validate-collection.js": "zq/X",
-      "node_modules/file-loader/index.js??ref--4-0!src/images/icon.png": "1eVB"
+      "node_modules/file-loader/index.js??ref--4-0!src/images/icon.png": "1eVB",
+      "node_modules/jquery/dist/jquery.js": "7t+N",
+      "node_modules/bootstrap/dist/js/bootstrap.js": "K3J8",
+      "node_modules/popper.js/dist/esm/popper.js": "Zgw8",
+      "node_modules/bootstrap-material-design/scripts/material.js": "HMdH",
+      "node_modules/bootstrap-material-design/scripts/ripples.js": "bIdF",
+      "node_modules/bootstrap-material-design/scripts/index.js": "vOLa"
     },
     "usedIds": {
       "0": 0,
@@ -748,7 +754,13 @@
       "zgIt": "zgIt",
       "zmx7": "zmx7",
       "zo/l": "zo/l",
-      "zq/X": "zq/X"
+      "zq/X": "zq/X",
+      "7t+N": "7t+N",
+      "K3J8": "K3J8",
+      "Zgw8": "Zgw8",
+      "HMdH": "HMdH",
+      "bIdF": "bIdF",
+      "vOLa": "vOLa"
     }
   },
   "chunks": {
@@ -765,9 +777,9 @@
       "2": 2
     }
   },
-  "prepreHash": "affaec4e467b399b75e0",
-  "preHash": "5264c2b5dc7dfbd460f1",
-  "hash": "a8dac12537dc236c8cd4",
+  "prepreHash": "812d6d3329612b7d18f5",
+  "preHash": "62fca94be51203f01415",
+  "hash": "2211f95c31eabd948620",
   "moduleHashs": {
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.string.at.js": "12adef261031f940ebc1e3054b742953",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.array.index-of.js": "d4b4101924a4dc4ef2a526a2c67b59d4",
@@ -782,7 +794,7 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.string.iterator.js": "88340a5f961bbb476eaaf019924b0460",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_fails-is-regexp.js": "eb79176185b36a755e7374556f793550",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_meta.js": "95f737563b7c7ecbc31a201775ca228a",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/file-loader/index.js??ref--4-0!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/url-loader/index.js??ref--4-1!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/images/icon.png": "7ae9a85ee1b39fe0839fa011c3e8765e",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/file-loader/index.js??ref--4-0!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/images/icon.png": "7ae9a85ee1b39fe0839fa011c3e8765e",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.math.log10.js": "474ee146a5e03f7a80f6f7b93aa3cd23",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.typed.data-view.js": "fcb6e8bf44ed4a675e6a953249d29ddf",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_string-pad.js": "751c7d0b668486d8f0d8330b3bef606d",
@@ -807,6 +819,7 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.math.asinh.js": "c64b35b931c37fa7caf32374a081c6fb",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_species-constructor.js": "0e363b0c32eb1b07059d10ba3bcdfd4f",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_core.js": "e00a3edbf5119a572501f028ea1efd46",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/jquery/dist/jquery.js": "c79b1f310c0495f4be6eed609580d026",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_object-create.js": "c68c9491345751e1474e7e0cb2a3d781",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.array.slice.js": "540069207232f15ac532827071ab6f8d",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.string.fontcolor.js": "e59a3f1401e730078972bb4cc269a466",
@@ -841,6 +854,7 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.global.js": "a5a00775e40fc2bc9c645d5067bc81c3",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_collection-strong.js": "e9e1ab41c5dbaa6cb56294b9a52e7288",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_export.js": "6e09ed705b82d17f693fc0adf741b8e0",
+    "multi babel-polyfill /home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/scripts/index.js": "959c5c1c7012f14c46675c53487d35cf",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/webpack/buildin/global.js": "cc8efc912dc2d0229a14f3cc5ee2508d",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.string.sub.js": "882cdb83f49f85252e367d22752ee668",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.reflect.metadata.js": "d5c94fb6166533402386f353c32540b1",
@@ -856,6 +870,7 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.string.includes.js": "6d04f74fe887cf5fcb00b465ebf9d75b",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.math.trunc.js": "39f417ebb03721f5a830b2067f995d73",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.math.signbit.js": "a1c56bbfe1908c29c4a5feee4fa38be2",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/bootstrap-material-design/scripts/material.js": "7ecc5e16d4d77876127f7d33aec26a0f",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--1-0!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/style-loader/index.js!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/css-loader/index.js??ref--1-2!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/postcss-loader/lib/index.js??ref--1-3!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/sass-loader/lib/loader.js??ref--1-4!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/sass/main.scss": "154b82d54cd336f48a73395f598d433f",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.object.define-properties.js": "51aba4b50741ecc92dcb2d1a3b6047f6",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.math.sign.js": "08882bf3af0ca5758ff1b96bcac67859",
@@ -867,10 +882,11 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.reflect.is-extensible.js": "2e659a193122789b22bce03da86b51ac",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.map.of.js": "36f35193cae59f259b3630cae052d440",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.typed.int32-array.js": "c7e823b24033d5652ed7718e471b2cd9",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/bootstrap/dist/js/bootstrap.js": "04fe18c8889d43667051b1b898cdf227",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_iter-step.js": "4b92653b2cb226ae6ea7e59bc7d2c19a",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_partial.js": "2f1600120c8eecf1bb83f201bb292f61",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_object-gpo.js": "97635bd275cde0a5e4684dca9895268f",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/sass/main.scss": "ede15cbdcbc9810215051c2155f46b75",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/sass/main.scss": "0a97949d9c4fe17015458168d136f654",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.number.is-nan.js": "1d586e76d5d6f89c3254b24c615b5f52",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.string.trim-right.js": "7a3fcb726b041a20a18ba6805fe63b3a",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.weak-map.of.js": "1c494714d9bdc601b4fccd8b18d98de2",
@@ -890,7 +906,7 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.typed.uint32-array.js": "b19d8d46bb962266bc3c21ecd376164c",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.array.every.js": "67d662d6a97c85ec8a237479a0af6a68",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.array.fill.js": "819ef37ca9ee73041c61a873e2a4d90a",
-    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/babel-loader/lib/index.js??ref--0!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/scripts/index.js": "9beb3134bca220f8938626391893597b",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/babel-loader/lib/index.js??ref--0!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/scripts/index.js": "4b29ddf0aca45f63a0f445d9b14aab70",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_parse-int.js": "16c6adc24ac0b917ade13b450bec41b6",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_global.js": "e3ddc71b9752b79ee8bdaebdb326fe2e",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_invoke.js": "477f7f5ed4cf07ed54b1accd5303a035",
@@ -971,12 +987,14 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_string-trim.js": "2f5a643876ce189a29e8311ec976a6ff",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.weak-map.js": "29a9fd8e0e63387fd9dd9c560bc704d5",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.number.to-precision.js": "b9fb485edf58c2146b3d7609af13333d",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/popper.js/dist/esm/popper.js": "925e234bad0aa618d2d7d608b1837869",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_bind.js": "1d7a03fedca0eb370b5f27c5daa27007",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.number.min-safe-integer.js": "fb4a31f0926d27f87a2a0a0783d6f4c1",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.asap.js": "c015eb7d11e33d3a5a0d2a2e3b26931d",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.number.parse-float.js": "15e510b79a60f9946b9a0a85897116c6",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.set.to-json.js": "753156921fba9756ebd77bbe179678ff",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_object-gopn-ext.js": "1bf015a4b0a4d43f88d4cd713d3a654f",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/bootstrap-material-design/scripts/ripples.js": "1350b992a9a79b034940a7e7d3196075",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_iterators.js": "d4e6efef0cb69651014765c16cbc6387",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_create-property.js": "086c5ca12f2f6297dc0904539573fb8c",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.reflect.set.js": "2f299d5cdb8f889dfa907556b1ccfdf1",
@@ -1029,7 +1047,6 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.math.atanh.js": "d5246ced6e6234c7b6b306d394c85570",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.math.fround.js": "3b2ffad4241faa033e9215af840919b6",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.string.pad-end.js": "8207a7b4259cceaccb1deddbc47462ac",
-    "multi babel-polyfill /home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/scripts/index.js": "959c5c1c7012f14c46675c53487d35cf",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/style-loader/lib/urls.js": "fdea2ceba7632491953d1e809c5a2317",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.regexp.split.js": "af5bce672f72309cd42f7ef23f3f5f0e",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.reflect.set-prototype-of.js": "cfe6a9686497766f0ac1fba06ceb1952",
@@ -1073,6 +1090,7 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js": "4ab54979da4c78bce9fc93b1cdda02dc",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/web.timers.js": "deb1a3b24f7594d157a8841be08739e9",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.array.flatten.js": "b5a42ce81fae9e5fdd607cf767a2430e",
+    "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/bootstrap-material-design/scripts/index.js": "a23c32035e6a159a2cec829e9244615b",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_for-of.js": "20570a5d046ac26e18179b00410bf987",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es6.reflect.construct.js": "61cdb2b8c7b0b42f59a67b0d08d38dcf",
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/es7.math.fscale.js": "d7c3df89d2965d5b178d4dd4e523a134",
@@ -1109,7 +1127,7 @@
     "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/core-js/modules/_validate-collection.js": "f32980fbba696dd08034c7baff1ed8a0"
   },
   "chunkHashs": {
-    "0": "a10aec657b1788b6fdf1fe0955bf9d13",
+    "0": "f52aecb81620093c54a8427e3277e10b",
     "1": "38a5474b1d0f60cd28901a0d30bb67a7",
     "2": "0572fe99544fe70b6bf61722e2de571d"
   },
@@ -1118,6 +1136,10 @@
       "Of4B",
       0,
       "j1ja",
+      "vOLa",
+      "HMdH",
+      "bIdF",
+      "K3J8",
       "Wwne",
       "XSOZ",
       "fS0v",
@@ -1280,8 +1302,8 @@
       "v2lb",
       "7Jvp",
       "lyhN",
-      "kBOG",
       "Smas",
+      "xONB",
       "LlNE",
       "9xIj",
       "m6Yj",
@@ -1445,9 +1467,11 @@
       "v8VU",
       "4M2W",
       "1eVB",
+      "7t+N",
+      "Zgw8",
       "SldL",
       "DuR2",
-      "xONB"
+      "kBOG"
     ],
     "1": [
       "HRs4"
@@ -1519,15 +1543,15 @@
           "0": 0
         }
       },
-      "prepreHash": "6b7594765974965b27cd",
-      "preHash": "308632989f0039458aa9",
-      "hash": "e653fe8eb53dbe6ea3b0",
+      "prepreHash": "bc54cc307cba3b59edd5",
+      "preHash": "84adc27b980b351c1543",
+      "hash": "d562998288c1ea936a65",
       "moduleHashs": {
-        "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/sass/main.scss": "ba423cf9b19d3707edf7e2f9da33c1b9",
+        "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/css-loader/index.js?{\"minimize\":true,\"modules\":false,\"sourceMap\":true,\"importLoaders\":2}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/sass-loader/lib/loader.js?{\"sourceMap\":true,\"sourceMapContents\":true}!/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/src/sass/main.scss": "ceb586cccd2f15e8ac773005a015ab99",
         "/home/jonelet/programowanie/projects/learning/webpack/webpack-base-front-end-boilerplate/node_modules/css-loader/lib/css-base.js": "fbf5a9a23289b73055e94ccdf810f54c"
       },
       "chunkHashs": {
-        "0": "ffe05dd32e2f28a1b8ff1c24032155f7"
+        "0": "1946d6e99bc4836559cfa6c184869818"
       },
       "chunkModuleIds": {
         "0": [

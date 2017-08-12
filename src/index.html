@@ -7,6 +7,81 @@
   <title>Document</title>
 </head>
 <body>
-  <img src="./images/icon.png" alt="" />
+  <nav class="nav nav-pills flex-column flex-sm-row">
+    <a class="flex-sm-fill text-sm-center nav-link active" href="#">Active</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+    <a class="flex-sm-fill text-sm-center nav-link disabled" href="#">Disabled</a>
+  </nav>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <img width="100" src="./images/icon.png" alt="" />
+
+  <!--Footer-->
+  <footer class="page-footer blue center-on-small-only">
+
+      <!--Footer Links-->
+      <div class="container-fluid">
+          <div class="row">
+
+              <!--First column-->
+              <div class="col-md-6">
+                  <h5 class="title">Footer Content</h5>
+                  <p>Here you can use rows and columns here to organize your footer content.</p>
+              </div>
+              <!--/.First column-->
+
+              <!--Second column-->
+              <div class="col-md-6">
+                  <h5 class="title">Links</h5>
+                  <ul>
+                      <li><a href="#!">Link 1</a></li>
+                      <li><a href="#!">Link 2</a></li>
+                      <li><a href="#!">Link 3</a></li>
+                      <li><a href="#!">Link 4</a></li>
+                  </ul>
+              </div>
+              <!--/.Second column-->
+          </div>
+      </div>
+      <!--/.Footer Links-->
+
+      <!--Copyright-->
+      <div class="footer-copyright">
+          <div class="container-fluid">
+              © 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+
+          </div>
+      </div>
+      <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+                  
 </body>
 </html>

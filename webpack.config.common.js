@@ -26,6 +26,7 @@ const commonConfig = merge([
         $: 'jquery',
         jQuery: 'jquery',
         Tether: 'tether',
+        'Popper': 'popper.js',
       }),      
     ],
 
